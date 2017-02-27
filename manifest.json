@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "jenkins jobs show in gerrit",
+  "version": "1.0",
+  "description": "show jenkins jobs summary in gerrit page",
+  "icons": {"openzero": "openzero.png"}
+  "content_scripts": [
+    {
+      "matches": [
+        "*://opnfv.zte.com.cn/gerrit/*",
+        "*://gerrit.oz/*",
+        "*://gerrit.zte.com.cn/*",
+        "*://gerrit.opnfv.org/*"
+      ],
+      "exclude_matches": ["*://review.openstack.org/*"],
+      "js": ["jquery.min.js", "jquery-visibility.js", "hideci.js"]
+    }
+  ],
+  "homepage_url": "https://github.com/openzero-zte/toggle-ci"
+}
