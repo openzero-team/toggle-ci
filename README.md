@@ -4,7 +4,6 @@ Chrome extensions for show jenkins jobs in gerrit page
 example of the result:
 
 ```
-
 +--------------------+------------------ -+
 |header row          | header 2           |
 |(jenkins pipeline)  | (the time to run)  |
@@ -45,9 +44,9 @@ User Guide
    Now you can see the summary of the pipeline, all jenkins jobs and results
    under the 'Label' in the gerrit page.
  
-   ![img](./img/ci_jobs.jpg)
+   ![img](https://github.com/openzero-team/toggle-ci/raw/master/img/ci_jobs.png)
 
    click the `Toggle Ci` in the bottom, you can hide the ci comments in the
    page.
 
-   ![img](./img/hide_ci.png)
+   ![img](https://github.com/openzero-team/toggle-ci/raw/master/img/hide_ci.png)
