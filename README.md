@@ -13,16 +13,23 @@ example of the result:
 
 ```
 
-User Guide
-----------
+Getting Started
+---------------
+
+Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/jenkins-jobs-show-in-gerr/mhdfkoddkdgcfmmhljfhekpadgmniagd)
+
+Developer Guide
+---------------
 
 1. Clone the toggle-ci from github:
 
-   git clone https://github.com/openzero-team/toggle-ci 
+```
+git clone https://github.com/openzero-team/toggle-ci 
+```
 
 2. Load the extension:
 
-   1)Visit chrome://extensions in your browser, or open up the Chrome menu by
+   1)Visit `chrome://extensions` in your browser, or open up the Chrome menu by
      clicking the icon to the far right of the Omnibox:  The menu's icon is
      three horizontal bars. Select Extensions under the Tools menu to get to
      the same place
@@ -33,7 +40,7 @@ User Guide
      files live, and select it.
 
    Alternatively, you can drag and drop the XXX.crx file onto
-   chrome://extensions in your browser to load it.
+   `chrome://extensions` in your browser to load it.
 
    If the extension is valid, it'll be loaded up and active right away! If
    it's invalid, an error message will be displayed at the top of the page.
